@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white; /*#2a2a2a; */
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+aside {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #003366;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+main {
+    width: 70%;
+    padding: 20px;
+}
+
+.section {
+    margin-top: 40px;
+}
+
+h2 {
+    color: #003366;
+}
+
+h3 {
+    color: #808080;
+}
+
+p {
+  margin-bottom: 5px; /* Adjust this value to control spacing between paragraphs */
+}
+
+.degree-icon {
+    font-size: 0.85em; /* Adjust the base font size for the entire container */
+    display: block;
+}
+
+a {
+    color: #e91e63;
+}
+
+button {
+    background-color: transparent; 
+    color: #007bff; 
+    border: 1px solid green; 
+    padding: 5px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
+
+/* Smooth scrolling for section links */
+html {
+    scroll-behavior: smooth;
+}
