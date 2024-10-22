@@ -19,10 +19,8 @@ aside {
 
 .profile-img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    float: left; 
+    width: 200px; 
+    height: 200px; 
 }
 
 nav ul {
