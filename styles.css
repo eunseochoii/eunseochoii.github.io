@@ -22,6 +22,7 @@ aside {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    float: left; 
 }
 
 nav ul {
