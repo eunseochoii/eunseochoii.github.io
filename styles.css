@@ -80,7 +80,7 @@ a {
 button {
     background-color: transparent; 
     color: #007bff; 
-    border: 1px solid 007bff; 
+    border: 1px solid #007bff; 
     padding: 5px 10px;
     border-radius: 2px;
     cursor: pointer;
