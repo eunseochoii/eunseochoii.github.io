@@ -142,14 +142,40 @@ a {
     color: #e91e63;
 }
 
-button {
-    background-color: transparent; 
-    color: #007bff; 
-    border: 1px solid #007bff; 
-    padding: 5px 10px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-top: 2px;
+.pub-year {
+    margin-bottom: 24px;
+}
+
+.pub-year h3 {
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.pub-item {
+    margin-bottom: 14px;
+}
+
+.pub-item:last-child {
+    margin-bottom: 0;
+}
+
+.pub-citation {
+    margin: 0;
+    line-height: 1.55;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.pub-citation a {
+    color: #003366;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pub-citation a:hover {
+    text-decoration: underline;
 }
 
 
